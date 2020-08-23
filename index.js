@@ -35,6 +35,7 @@ function mapToSquare(x){
   }
   return z;
 }
+map([1, 2, 3, -9], function(a){ return a * a })
 
 function reduceToTotal(x,y=0){
   for (let i =0; i<x.length; i++){
